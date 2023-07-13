@@ -1,0 +1,84 @@
+ls
+cd d:
+cd ..
+ls
+git config --global user.name "ajguerras"
+git config --global user.email "ajose.guerra@udea.edu.co"
+git config --global user.name "ajguerrasTeacher"
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "ajose.guerra@udea.edu.co"
+ssh-keygen -t ed25519 -C "ajose.guerra@udea.edu.co"
+ls -al ~/.ssh
+git init
+ls
+cd ~
+git init
+git config --global user.name ajguerras
+ssh-keygen -t ed25519 -C ajose.guerra@udea.edu.co
+git config --global user.email ajose.guerra@udea.edu.co
+git config --global user.password 1CelSpe1
+git remote add origin https://github.com/ajguerrasTeacher/InfoIIUdeA.git
+git add .
+ls
+cd Mis\ documentos/
+ls
+ls
+mkdir GithubCodesInfoII
+cd GithubCodesInfoII/
+git add .
+git commit -m pruebaAcceso
+ls
+git pus -u origin master
+git push -u origin master
+git push -u origin main
+git reset 
+git add .
+git push -u origin main
+git commit -m pruebaAcceso
+git commit -m pruebaAcceso
+git commit -m pruebaAcceso
+git push -u origin main
+git pull --rebase
+git pull --rebase origin main
+git push -u origin main
+git commit -m pruebaAcceso
+git add .
+git commit -m pruebaAcceso
+git push -u origin main
+git push -u origin master
+git commit -m pruebaAcceso
+git push -u origin master
+git pull --rebase origin master
+git push -u origin master
+git commit -m ImportantMessage
+git push -u origin master
+git add .
+git commit -m ImportantMessage
+git push -u origin master
+ls
+ls
+cd 'Mis documentos'/
+ls
+cd GithubCodesInfoII/
+git pull --rebase origin master
+ls
+cd 'Mis documentos'/
+ls
+cd GithubCodesInfoII/
+ls
+git add .
+git commit -m NewFile
+git push -u origin master
+ls
+cd ..
+ls
+cd GithubCodesInfoII/
+l
+ls
+cd ../..
+ls
+ls
+cd 'Mis documentos'/
+ls
+cd GithubCodesInfoII/
+ls
