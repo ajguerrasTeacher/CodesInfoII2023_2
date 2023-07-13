@@ -1,0 +1,109 @@
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~
+$ cd d:
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /d
+$ cd ..
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ git config --global user.name "ajguerras"
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ git config --global user.email "ajose.guerra@udea.edu.co"
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ git config --global user.name "ajguerrasTeacher"
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ls -al ~/.ssh
+ls: cannot access '/c/Users/ajgue/.ssh': No such file or directory
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ssh-keygen -t ed25519 -C "ajose.guerra@udea.edu.co"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/ajgue/.ssh/id_ed25519): MyInfoIISshKey
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Saving key "MyInfoIISSshKey" failed: Permission denied
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ssh-keygen -t ed25519 -C "ajose.guerra@udea.edu.co"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/ajgue/.ssh/id_ed25519):
+Created directory '/c/Users/ajgue/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/ajgue/.ssh/id_ed25519
+Your public key has been saved in /c/Users/ajgue/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:yGhKaLXkBshanlEcCUwL+X/d8YR7J7/BpRZW3gtZfo4 ajose.guerra@udea.edu.co
+The key's randomart image is:
++--[ED25519 256]--+
+|.+oooo           |
+|+..oo            |
+|.++o       .   ..|
+|.+*o.o .  o . +o.|
+|o.+=o o.S. = oo.=|
+|...o. . . o +oo*o|
+|  .  .     . +E..|
+|             ... |
+|              .. |
++----[SHA256]-----+
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ls -al ~/.ssh
+total 10
+drwxr-xr-x 1 ajgue 197121   0 Jun 15 21:27 ./
+drwxr-xr-x 1 ajgue 197121   0 Jun 15 21:27 ../
+-rw-r--r-- 1 ajgue 197121 419 Jun 15 21:27 id_ed25519
+-rw-r--r-- 1 ajgue 197121 106 Jun 15 21:27 id_ed25519.pub
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ git init
+C:/Program Files/Git/.git: Permission denied
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 /
+$ cd ~
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/ajgue/.git/
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ git config --global user.name ajguerras
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ ssh-keygen -t ed25519 -C ajose.guerra@udea.edu.co
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/ajgue/.ssh/id_ed25519):
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ git config --global user.email ajose.guerra@udea.edu.co
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ git config --global user.password 1CelSpe1
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ git remote add origin https://github.com/ajguerrasTeacher/InfoIIUdeA.git
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ git add .
+
+ajgue@LAPTOP-3EHSTGAU MINGW64 ~ (master)
+$ cd Mis\ documentos/
+
+ git pull --rebase origin master
+
+git push -u origin master
+
